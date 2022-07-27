@@ -36,15 +36,16 @@ img {
     flex: 1 0 auto;
     width: 150px;
     max-height: auto;
-    padding-right: 40px;
 }
 
 button {
     background-color: blue;
     color: white;
+    max-width: 150px;
+    max-height: 50px;
     padding: 8px;
     margin: 8px;
-    flex: none;
+    flex: auto;
 }
 a, .header-right {
     font-size: 16px;
@@ -54,7 +55,7 @@ a, .header-right {
     align-items: center;
     gap: 8px;
     text-decoration: none;
-    color: white;
+    color: white;1
 }
 
 .middlethird {
@@ -63,12 +64,17 @@ a, .header-right {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    padding-left: 50px;
 }
 
 .middlethird, .items {
     width: 900px;
     max-height: auto;
     padding: 10px;
+}
+
+#h2mid {
+    padding-left: 50px;
 }
 
 .lowerthird {
